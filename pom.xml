@@ -33,6 +33,7 @@
     <spring-cloud.version>Hoxton.SR10</spring-cloud.version>
     <alibaba-cloud.version>2.2.5.RELEASE</alibaba-cloud.version>
     <mysql.version>5.1.47</mysql.version>
+    <mybatis.plus.version>3.3.0</mybatis.plus.version>
     <mybatis.version>2.1.1</mybatis.version>
   </properties>
 
@@ -65,6 +66,12 @@
         <groupId>org.mybatis.spring.boot</groupId>
         <artifactId>mybatis-spring-boot-starter</artifactId>
         <version>${mybatis.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>com.baomidou</groupId>
+        <artifactId>mybatis-plus-boot-starter</artifactId>
+        <version>${mybatis.plus.version}</version>
       </dependency>
 
       <dependency>
